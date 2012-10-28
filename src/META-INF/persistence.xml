@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+  <persistence-unit name="DBLibraryPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>ch.skema.data.Adresswechsel</class>
+    <class>ch.skema.data.Zahlungsintervall</class>
+    <class>ch.skema.data.Austritt</class>
+    <class>ch.skema.data.Mitglied</class>
+    <class>ch.skema.data.Mahnung</class>
+    <class>ch.skema.data.Rubrik</class>
+    <class>ch.skema.data.Pruefungslevel</class>
+    <class>ch.skema.data.Preisallgemein</class>
+    <class>ch.skema.data.Preisvertrag</class>
+    <class>ch.skema.data.Zahlungskategorie</class>
+    <class>ch.skema.data.Rechnung</class>
+    <class>ch.skema.data.Rechnungsinhalt</class>
+    <class>ch.skema.data.Vertragsstop</class>
+    <class>ch.skema.data.Vertrag</class>
+    <class>ch.skema.data.Pruefung</class>
+    <class>ch.skema.data.Preis</class>
+    <class>ch.skema.data.Settings</class>
+    <class>ch.skema.data.Abrechnung</class>
+    <class>ch.skema.data.Membergebuehr</class>
+    <class>ch.skema.data.Dokumentvorlage</class>
+    <class>ch.skema.data.Dokument</class>
+    <class>ch.skema.data.Privatstunde</class>
+  </persistence-unit>
+</persistence>
